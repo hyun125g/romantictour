@@ -178,6 +178,7 @@ body {
 #content1_inner {
     display: flex;
     justify-content: center;
+    padding-bottom: 120px;
 }
 
 #content1_inner .text {
@@ -186,6 +187,7 @@ body {
     height: 503px;
     text-align: center;
     padding-top: 120px;
+    box-sizing: border-box;
 }
 
 #content1_inner .text span {
@@ -215,6 +217,11 @@ body {
     transition: all 0.5s;
 }
 
+#content1_inner .img:hover img {
+    transition: all 3s;
+    transform: scale(1.1, 1.1);
+}
+
 #content1_inner .text .more_btn:hover {
     font-size: 16px;
     font-weight: 700;
@@ -223,6 +230,10 @@ body {
     color: #ffffff;
     padding: 8px 50px 8px 20px;
     transition: all 0.5s;
+}
+
+.img {
+    overflow: hidden;
 }
 
 /*contents2*/
