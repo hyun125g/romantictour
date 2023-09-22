@@ -11,6 +11,9 @@
     <!--프리텐다드 웹폰트-->
     <link rel="stylesheet" href="./fonts/web/static/pretendard.css">
 
+    <!--aos cdn-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <link rel="stylesheet" href="./css/sub4.css">
 
@@ -55,7 +58,8 @@
         <!--배경이미지-->
         <div id="brand">
             <!--가운데정렬-->
-            <img src="./images/bs_text.png" alt="브랜드소개글">
+            <img data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-out-back"
+                src="./images/bs_text.png" alt="브랜드소개글">
         </div>
         <!--brand-->
     </div>
@@ -66,15 +70,17 @@
         <div id="vision_inner">
             <!--가운데정렬-->
             <div id="flex">
-                <h1><img src="./images/vision.png" alt="vision타이틀"></h1>
+                <h1><img src="./images/vision2.gif" alt="vision타이틀"></h1>
                 <ul>
                     <li>
-                        <p><img src="./images/core_value.png" alt="핵심가치"></p>
+                        <p data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000"
+                            data-aos-easing="ease-out-back"><img src="./images/core_value.png" alt="핵심가치"></p>
                         <p><img src="./images/co_val_icon.png" alt="핵심가치 아이콘"></p>
                         <h4>고객만족</h4>
                     </li>
                     <li>
-                        <p><img src="./images/brand value.png" alt="브랜드가치"></p>
+                        <p data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000"
+                            data-aos-easing="ease-out-back"><img src="./images/brand value.png" alt="브랜드가치"></p>
                         <p><img src="./images/br_val_icon.png" alt="브랜드가치아이콘"></p>
                         <h4>신뢰</h4>
                     </li>
@@ -89,10 +95,11 @@
     <div id="bi">
         <!--가운데정렬-->
         <h1><img src="./images/bi_int.png" alt="브랜드소개타이틀"></h1>
-        <p><img src="./images/bs_gli.png" alt="bi소개 반짝이"></p>
+        <p><img src="./images/gli.gif" alt="bi소개 반짝이"></p>
         <h3>저희 낭만투어를 소개합니다.</h3>
         <p class="logo"><img src="./images/bi_int_logo.png" alt="낭만투어 메인로고"></p>
-        <h3>로맨틱한 여행은 낭만투어와 함께.</h3>
+        <h3 data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-out-back">로맨틱한 여행은
+            낭만투어와 함께.</h3>
         <p class="text">구름형상이 모티브가 되어 글자 끝부분에 둥근모양을 추가하고,<br>
             '만'과 '투'사이에 열기구의 형상을 심볼로 넣어 귀여움과 사랑스러움이 느껴지게끔<br>
             커다란 기낭의 하트모양과 '어'의 자물쇠 느낌을 표현했습니다.
@@ -117,7 +124,7 @@
             <!--가운데정렬-->
             <h1>
                 <span class="bi_down"><img src="./images/bi_down.png" alt="bi다운로드"></span>
-                <span class="title"><img src="./images/signiture_ti.png" alt="시그니처 타이틀"></span>
+                <span class="title"><img src="./images/signiture.gif" alt="시그니처 타이틀"></span>
             </h1>
             <p>심볼마크와 로고타입을 조합한 워드마크형태로<br>
                 가로, 세로조합으로 구성되었습니다.
@@ -143,7 +150,7 @@
         <!--배경색-->
         <div class="color_in">
             <!--가운데정렬-->
-            <h1><img src="./images/colorsystem_ti.png" alt="컬러시스템 타이틀"></h1>
+            <h1><img src="./images/colorsystem.gif" alt="컬러시스템 타이틀"></h1>
             <p>색상은 cmyk로 구성된 4원색을 기본으로 구성되었습니다.<br>
                 pantone 컬러를 별도로 지정하고,rgb컬러는 3가지를 구성되었습니다.
             </p>
@@ -234,7 +241,9 @@
 
     <a href="#" class="top_btn"><img src="./images/top.png" alt="top버튼"></a>
 
-
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 

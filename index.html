@@ -14,6 +14,9 @@
   <!-- Link Swiper's CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 
+  <!--aos cdn -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
   <link rel="stylesheet" href="./css/style.css">
 
@@ -92,8 +95,10 @@
         <img src="./images/t1_img1.png" alt="아시아 이미지">
         <img class="hover" src="./images/t1_h.png" alt="아시아 이미지호버">
         <div class="text">
-          <p class="asia">아시아</p>
-          <p class="see"><a href="#">보러가기</a></p>
+          <p data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-out-back"
+            class="asia">아시아</p>
+          <p data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-out-back"
+            class="see"><a href="#">보러가기</a></p>
         </div>
         <!--text-->
       </li>
@@ -101,8 +106,10 @@
         <img src="./images/t1_img2.png" alt="유럽 이미지">
         <img class="hover" src="./images/t1_h.png" alt="유럽 이미지호버">
         <div class="text">
-          <p class="eroupe">유럽</p>
-          <p class="see"><a href="#">보러가기</a></p>
+          <p data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-out-back"
+            class="eroupe">유럽</p>
+          <p data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-out-back"
+            class="see"><a href="#">보러가기</a></p>
         </div>
         <!--text-->
       </li>
@@ -110,8 +117,10 @@
         <img src="./images/t1_img3.png" alt="남태평양 이미지">
         <img class="hover" src="./images/t1_h.png" alt="남태평양 이미지호버">
         <div class="text">
-          <p class="spo">남태평양</p>
-          <p class="see"><a href="#">보러가기</a></p>
+          <p data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-out-back"
+            class="spo">남태평양</p>
+          <p data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-out-back"
+            class="see"><a href="#">보러가기</a></p>
         </div>
         <!--text-->
       </li>
@@ -119,8 +128,10 @@
         <img src="./images/t1_img4.png" alt="미주 이미지">
         <img class="hover" src="./images/t1_h.png" alt="미주 이미지호버">
         <div class="text">
-          <p class="the_ameri">미주</p>
-          <p class="see"><a href="#">보러가기</a></p>
+          <p data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-out-back"
+            class="the_ameri">미주</p>
+          <p data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-out-back"
+            class="see"><a href="#">보러가기</a></p>
         </div>
         <!--text-->
       </li>
@@ -128,8 +139,10 @@
         <img src="./images/t1_img5.png" alt="캐나다 이미지">
         <img class="hover" src="./images/t1_h.png" alt="캐나다 이미지호버">
         <div class="text">
-          <p class="canada">캐나다</p>
-          <p class="see"><a href="#">보러가기</a></p>
+          <p data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-out-back"
+            class="canada">캐나다</p>
+          <p data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-out-back"
+            class="see"><a href="#">보러가기</a></p>
         </div>
         <!--text-->
       </li>
@@ -137,8 +150,10 @@
         <img src="./images/t1_img6.png" alt="국내 이미지"></a>
         <img class="hover" src="./images/t1_h.png" alt="국내 이미지호버"></a>
         <div class="text">
-          <p class="jeju">제주도</p>
-          <p class="see"><a href="#">보러가기</a></p>
+          <p data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-out-back"
+            class="jeju">제주도</p>
+          <p data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-out-back"
+            class="see"><a href="#">보러가기</a></p>
         </div>
         <!--text-->
       </li>
@@ -270,7 +285,8 @@
     <!--가운데정렬-->
     <h1 class="title2"><span><img src="./images/symbol.png" alt="열기구심볼"> <img src="./images/title_03.png" alt="이번주숙소">
       </span><img src="./images/symbol.png" alt="열기구심볼"><span></span></h1>
-    <p class="sub_title">너와 내가 쉴 휴식처</p>
+    <p data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-out-back"
+      class="sub_title">너와 내가 쉴 휴식처</p>
     <div class="hotel_po">
       <div class="swiper hotel">
         <div class="swiper-wrapper">
@@ -460,6 +476,11 @@
       },
     });
   </script>
+
+  <script>
+    AOS.init();
+  </script>
+
 </body>
 
 </html>
